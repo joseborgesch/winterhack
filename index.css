@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.ofertlaborales { 
+    font-family: sans-serif; 
+    font-size: 15px; 
+    font-weight: 400; 
+    color: black; 
+    background: #DCF0F2; 
+}
+.imginicio{
+    width: 300px; height: 300px;
+}
+.imginfobae{
+    width: 300px; height: 300px;
+}
+.imgcippec{
+    width: 300px; height: 300px;
+}
+.imgbbc{
+    width: 300px; height: 300px;
+    float: left;
+}
+.imgbbc2{
+    width: 300px; height: 300px;
+}
+.listatop{
+    text-align: center;
+}
+.titulolista{
+    text-align: center;
+}
