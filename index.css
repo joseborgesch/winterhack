@@ -1,33 +1,107 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.ofertlaborales { 
-    font-family: sans-serif; 
-    font-size: 15px; 
-    font-weight: 400; 
-    color: black; 
-    background: #DCF0F2; 
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 35px;
 }
-.imginicio{
-    width: 300px; height: 300px;
+
+.noticias-container {
+    padding: 10px 30px;
 }
-.imginfobae{
-    width: 300px; height: 300px;
+
+.noticia {
+    border-bottom: 1px solid #909090;
+    padding-bottom: 30px;
+    margin-right: 100px;
+    margin-top: 100px;
 }
-.imgcippec{
-    width: 300px; height: 300px;
+
+.info-noticia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-.imgbbc{
-    width: 300px; height: 300px;
-    float: left;
+
+.imagen-noticia {
+    max-width: 530px;
+
 }
-.imgbbc2{
-    width: 300px; height: 300px;
+
+img {
+    max-width: inherit;
 }
-.listatop{
-    text-align: center;
+
+.noticia-parrafo {
+color: black;
+
 }
-.titulolista{
-    text-align: center;
+
+.texto-parrafo {
+    margin-bottom: 10px;
+}
+
+.titulo {
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    margin-bottom: 20px;
+}
+
+.fuente {
+    color: black;
+    font-weight: bold;
+
+
+}
+.left {
+    margin-right: 20px;
+}
+.right{
+    margin-left: 20px
+}
+.tres{
+    max-width: 280px;
+}
+.aside{
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+.noticia-aside{
+    border: 1px solid #909090;
+    padding: 10px 20px;
+}
+.titulo-aside{
+    margin-bottom: 15px;
+}
+.subtitulo-aside{
+    margin-bottom: 15px;
+}
+.noticia-parrafo-aside{
+    color: #646363;
+}
+.lista-aside{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+ul{
+    list-style: none;
+}
+.number-top-ten{
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+.item-list{
+    margin: 10px 0;
+    padding: 5px;
+    border-bottom: 1px solid #909090;
 }
